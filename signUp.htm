@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">    <title>Library &ndash; Sign In</title>    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="/jquery-3.4.1.min.js"></script>
+    
+     <script src="/script.js"></script>
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    
+    <style>
+    body{
+    background-image: url(/img/bgimage2.jpg);
+     }
+    </style>
+           
+            <link rel="stylesheet" href="css/layouts/marketing.css">
+            <link rel="stylesheet" href="/css/style.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body class="signup">
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
+        
+        <a class="pure-menu-heading" href="#" style="font-family: Verdana, Geneva, Tahoma, sans-serif">S K LIBRARY</a>
+            <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="index .html" class="pure-menu-link">Home</a></li>
+           
+            <li class="pure-menu-item pure-menu-selected"><a href="signUp.htm" class="pure-menu-link">Log In</a></li>
+            <li class="pure-menu-item "><a href="SignIn.htm" class="pure-menu-link">Sign Up</a></li>
+        </ul>
+    </div>
+</div>
+    
+            
+         <div class="Container-fluid bg" style="padding-top: 50px">
+             <div class="row">
+                 <div class="col-md-4 col-sm-4 col-xs-12"></div>
+                 <div class="col-md-4 col-sm-4 col-xs-12"> 
+                     <form class="formFormat" method="post" onsubmit="return validate()" >  
+                         <div class="form-group">
+                             <h3 style="padding-left:25%"><span style="color: crimson">Login to Continue</h3>
+                                 <br><br>
+                             <label for="exampleInputEmail1">Email address</label>
+                             <input type="email" class="form-control" id="email" placeholder="Email">
+                             <p id="emailvaltext"></p>
+                         </div>
+                     <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                     <input type="password" class="form-control" id="password" placeholder="Password">
+                     <p id="passvaltext"></p>              
+                 </div>
+                 <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Remember me
+              </label>
+            </div>
+          
+            <button type="submit" class="btn btn-success btn-block" id="set" ><h4>Submit</h4></button>
+            <br>
+            <button type="button" class="btn btn-info"><a href="SignIn.htm">Need an account ?</a></button>
+             <button type="button" class="btn btn-warning"><a href="welcome.htm">Continue as a guest User</a></button>
+          </form>
+          
+      
+    </div>
+    </div>
+    
+    
+<div class="content-wrapper">
+    <div class="content">
+        <h2 class="content-head is-center">Explore Our Services</h2>
+
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                <h3 class="content-subhead">
+                    <i class="fa fa-th-large"></i>
+                     Online Library
+                </h3>
+                <p>
+                    The online library provides information and free e-book download for the courses you selected
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-th-large"></i>
+                    Book Review
+                </h3>
+                <p>
+                    A short review of  each book is provided for the easy selection of books
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-th-large"></i>
+                    Author details
+                </h3>
+                <p>
+                    Details about the author is included along with picture
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-th-large"></i>
+                    Links
+                </h3>
+                <p>
+                    Links are provided to know more about the book and author and for online purchase
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <img width="300" alt="File Icons" class="pure-img-responsive" src="img/common/skImg.jpg">
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+            <h2 class="content-head content-head-ribbon" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-bottom: 50px"> S K Education Foundation.</h2>
+
+            <p>
+              <span style="color: yellow"><i>The only purpose of humankind in this planet is to share what we have learnt</i>
+            </p>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 class="content-head is-center">Get to know us </h2>
+
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+
+                        <label for="name">Your Name</label>
+                        <input id="name" type="text" placeholder="Your Name">
+
+
+                        <label for="email">Your Email</label>
+                        <input id="email1" type="email" placeholder="Your Email">
+
+                        <label for="details">Ask Us ?</label>
+                        <input id="query" type='text' placeholder="Type here">
+
+                        <button type="submit" class="button-warning pure-button">Send Message</button>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4>Contact Us</h4>
+                <p>
+                    We are providing quality education to all aspirants since 2015.Our other services include private mentoring,sports mentoring relationship mentoring and Business mentoring
+                </p>
+
+                <h4>More Information</h4>
+                <p>
+                    Interested in what we do ? You think you wanna grow with us ? Dont hesitate . Reach us . We are happy to have you in.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer l-box is-center">
+        Assignment submitted to ICT Academy- ABCD-TVM-009    </div>
+
+</div>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="/jquery-3.4.1.min.js"></script>
+</body>
+
+</html>
